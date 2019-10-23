@@ -1,0 +1,6 @@
+#EXTINF:-1,Ardeal TV
+http://89.36.196.22:88/live/livestream/playlist.m3u8
+#EXTINF:-1,TVRi
+https://mn-nl.mncdn.com/tvr_i_live/smil:tvr_i_live.smil/chunklist_b424000.m3u8?
+#EXTINF:-1,TVR Moldova
+https://www.trm.md/live/MoldovaDoi2/chunklist_w387208683.m3u8
