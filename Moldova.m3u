@@ -3,3 +3,5 @@
 pipe://ffmpeg -loglevel fatal -i https://v3.trm.md/static/streaming-playlists/hls/82fed61f-aae9-4bb2-b327-7b0f32e55734/master.m3u8 -vcodec copy -acodec copy -metadata service_name=Moldova\ 1\ HD -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 #EXTINF:-1,Moldova 2 HD
 pipe://ffmpeg -loglevel fatal -i https://stream.trm.md/static/streaming-playlists/hls/7d4704a4-71c9-4eab-b1dc-6dd56449b7e2/master.m3u8 -vcodec copy -acodec copy -metadata service_name=Moldova\ 2\ HD -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
+#EXTINF:-1,OCS Geants
+pipe://ffmpeg -loglevel fatal -i http://iptvtree.net:8080/single-0c82fc/d906f4d902/177 -vcodec copy -acodec copy -metadata service_name=OCS\ Geants -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
