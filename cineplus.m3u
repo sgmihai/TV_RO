@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1,CINE+ Emotion
-pipe://ffmpeg -loglevel fatal -i http://iptvtree.net:8080/single-0c82fc/d906f4d902/876 -vcodec copy -acodec copy -metadata service_name=Moldova\ 1\ HD -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
+pipe://ffmpeg -loglevel fatal -i http://iptvtree.net:8080/single-0c82fc/d906f4d902/876 -vcodec copy -acodec copy -metadata service_name=CINE+\ Emotion -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 #EXTINF:-1,CINE+ Classic
-pipe://ffmpeg -loglevel fatal -i http://iptvtree.net:8080/single-0c82fc/d906f4d902/175 -vcodec copy -acodec copy -metadata service_name=Moldova\ 2\ HD -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
+pipe://ffmpeg -loglevel fatal -i http://iptvtree.net:8080/single-0c82fc/d906f4d902/175 -vcodec copy -acodec copy -metadata service_name=CINE+\ Classic -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
 #EXTINF:-1,CINE+ Frisson
-pipe://ffmpeg -loglevel fatal -i http://iptvtree.net:8080/single-0c82fc/d906f4d902/1895 -vcodec copy -acodec copy -metadata service_name=OCS\ Geants -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
+pipe://ffmpeg -loglevel fatal -i http://iptvtree.net:8080/single-0c82fc/d906f4d902/1895 -vcodec copy -acodec copy -metadata service_name=CINE+\ Frissons -mpegts_service_type advanced_codec_digital_hdtv -f mpegts pipe:1
